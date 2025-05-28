@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image:url(background2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:rgb(2, 255, 242);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .logo{
+    width:150px;
+    border-radius: 50%;
+  }
+  nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+
+  }
+  .menu{
+    color:blue;
+    text-decoration: solid;
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+    
+}
+  
+  header {
+    color: #02fcfc;
+    padding: 2rem 0;
+    font-size: larger;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    font-size: medium;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(249, 251, 252);
+    margin: auto;
+  }
+  
+  h2 {
+    color:rgb(5, 5, 5);
+    font-size: larger;
+    font-style: italic;
+  }
+  .image{
+    align-content: center;
+    padding: 2rem;
+    max-width: 800px;
+    width:500px;
+    height: 500px;
+  }
+    .button{
+        background: linear-gradient( to right, #000000, #c402da); 
+        color: #fff;
+        padding: 10px 20px;
+        border:none;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius:20px;
+    }
+.contact{
+   background-color: #1909aa;
+        color: #fff;
+        padding: 10px 20px;
+        border:none;     
+}
+.textarea{
+          width: 20%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: large;
+          background-color: #1909aa;
+          color: white;
+}
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
